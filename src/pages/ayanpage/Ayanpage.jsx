@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heart, Star, Cpu, MessageSquare, Layout, Zap } from 'lucide-react';
-import image from '../assets/Gemini_Generated_Image_ch3u0vch3u0vch3u.png';
+import image from '../../assets/Gemini_Generated_Image_ch3u0vch3u0vch3u.png';
 
 export default function App() {
   return (

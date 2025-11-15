@@ -1,11 +1,11 @@
 import React from 'react'
 import { Routes , Route } from 'react-router-dom'
-import Ayanpage from './ayanpage/ayanpage'
+import Mainpage from './pages/main page/Mainpage'
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Ayanpage />} />
+      <Route path="/" element={<Mainpage />} />
     </Routes>
   )
 }
