@@ -1,10 +1,12 @@
 import React from 'react'
+import { Routes , Route } from 'react-router-dom'
+import Mainpage from './pages/main page/Mainpage'
 
 function App() {
   return (
-    <div>
-      hii baby pritam
-    </div>
+    <Routes>
+      <Route path="/" element={<Mainpage />} />
+    </Routes>
   )
 }
 
