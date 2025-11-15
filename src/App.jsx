@@ -1,10 +1,12 @@
 import React from 'react'
+import { Routes , Route } from 'react-router-dom'
+import Ayanpage from './ayanpage/ayanpage'
 
 function App() {
   return (
-    <div>
-      hii baby pritam
-    </div>
+    <Routes>
+      <Route path="/" element={<Ayanpage />} />
+    </Routes>
   )
 }
 
