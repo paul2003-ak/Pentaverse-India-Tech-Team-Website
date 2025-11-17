@@ -1,5 +1,5 @@
 import React from 'react'
-import App from '../ayanpage/ayanpage'
+import App from '../home page/Home'
 
 const Mainpage = () => {
   return (
