@@ -1,13 +1,17 @@
-import React from 'react'
-import { Routes , Route } from 'react-router-dom'
-import Mainpage from './pages/main page/Mainpage'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Mainpage from "./pages/main page/Mainpage";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Mainpage />} />
-    </Routes>
-  )
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Mainpage />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
