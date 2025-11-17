@@ -1,9 +1,13 @@
 import React from 'react'
-import App from '../home page/Home'
+import App from '../About page/About'
+import Mentor from '../mentor page/Mentor'
 
 const Mainpage = () => {
   return (
-    <App/>
+    <>
+    <App />
+    <Mentor />
+    </>
   )
 }
 
