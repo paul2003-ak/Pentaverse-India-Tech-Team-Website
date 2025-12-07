@@ -4,7 +4,7 @@ import image from '../../assets/Gemini_Generated_Image_ch3u0vch3u0vch3u.png';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-bl from-black via-red-950 to-black text-white p-8 font-sans">
+    <div id="about" className="min-h-screen bg-gradient-to-bl from-black via-red-950 to-black text-white p-8 font-sans">
       <div className="max-w-7xl mx-auto">
         
         <div className="grid md:grid-cols-2 gap-12 mb-16 md:mb-24">

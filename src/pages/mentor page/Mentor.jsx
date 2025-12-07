@@ -4,7 +4,7 @@ import mentorImage from '../../assets/mentor.png';
 
 export default function MentorsVenuePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-red-950 to-black text-white p-8 relative overflow-hidden">
+    <div id="mentors" className="min-h-screen bg-gradient-to-br from-black via-red-950 to-black text-white p-8 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-0 right-0 text-center text-[12rem] font-bold text-gray-300 leading-none">OUR MENTORS</div>
@@ -13,7 +13,7 @@ export default function MentorsVenuePage() {
       <div className="max-w-5xl mx-auto space-y-16 relative z-10">
         
         {/* Prizes Section */}
-        <div className="text-center space-y-19 pt-8">
+        <div id="prizes" className="text-center space-y-19 pt-8">
           <div className="inline-block ">
             <span className="bg-lime-400 text-black px-5 py-2 rounded-lg text-sm font-bold">
               Prizes
@@ -59,7 +59,7 @@ export default function MentorsVenuePage() {
         </div>
 
         {/* Our Mentors Section */}
-        <div className="text-center space-y-12 py-8">
+        <div id="mentors-detail" className="text-center space-y-12 py-8">
           <div className="relative">
             <h2 className="text-8xl font-bold text-gray-800/20 tracking-wider">
               OUR MENTORS
